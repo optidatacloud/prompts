@@ -1,61 +1,44 @@
 <p align="center">
-    <img src=".github/logo.png" title="Logo do projeto"><br />
-    <img src="https://img.shields.io/maintenance/yes/2026?style=for-the-badge" title="Status do projeto">
+    <img src=".github/logo.png" title="Project logo"><br />
+    <img src="https://img.shields.io/maintenance/yes/2026?style=for-the-badge" title="Project status">
 </p>
 
-# Título
+# Prompt Library
 
-Coloque uma descrição do projeto aqui. Geralmente essa descrição tem de duas a três linhas de tamanho. Ela deve dar uma visão geral sobre o que é o projeto, ex.: tecnologia usada, filosofia de existência, qual problema tenta-se resolver, etc. Se você precisa escrever mais que 3 linhas de descrição, crie subseções.
+This repository contains public prompts for software development and related technical activities. Prompts are versioned as Markdown files so they can be reviewed, improved, and maintained over time.
 
-> **IMPORTANTE:** coloque aqui alguma mensagem que é muito relevante aos usuários do projeto, se for o caso.
+The goal of this repository is to keep prompt instructions explicit, maintainable, and easy to locate by technology and task type.
 
-## ✨ Features
+## What Is In This Repository
 
-Aqui você pode colocar uma screenshot do produto resultante desse projeto. Descreva também suas features usando uma lista:
+Prompts are organized by domain and activity. The current structure is:
 
-* ✔️ Fácil integração;
-* 🥢 Poucas dependências;
-* 🎨 Utiliza um template lindo para organizar o `README`;
-* 🖖 Possui ótima documentação e testes.
-
-## 🚀 Começando
-
-### 1. Primeiro passo para começar
-
-Geralmente o primeiro passo para começar é instalar dependências para rodar o projeto. Rode:
-
-```
-apt get install dependencia
+```text
+dev/
+  laravel/
+    review-laravel-pr.md
 ```
 
-Recomenda-se que cada comando seja colocado em uma linha diferente:
+Current prompt set:
 
-```
-apt get install outra-coisa
-```
+- `dev/laravel/review-laravel-pr.md`: instructions for reviewing Laravel pull requests with a strict high-signal review policy.
 
-Dessa forma os usuários podem copiar e colar sem ler as documentação (que é o que geralmente acontece).
+## How The Repository Is Organized
 
-### 2. Outro(s) passo(s)
+Use this convention when adding new prompts:
 
-Geralmente os próximos passos ensinam como instalar e configurar o projeto para uso/desenvolvimento. Rode:
-
-```
-git clone https://github.com/optidata-cloud/template template
+```text
+<area>/<domain>/<prompt-name>.md
 ```
 
-## 🎫 Licença
+Examples:
 
-Esse projeto é propriedade privada de Optidata Cloud Solutions e sua utilização, reprodução ou cópia é estritamente proibida.
+- `dev/laravel/review-laravel-pr.md`
+- `dev/frontend/plan-landing-page.md`
+- `dev/backend/debug-api-timeouts.md`
 
-## 🧬 Changelog
+This keeps prompts grouped first by broad area and then by technology or domain. The filename should describe the task clearly.
 
-Veja todas as alterações desse projeto no arquivo [CHANGELOG.md](CHANGELOG.md).
+## License
 
-## 🧪 Projetos semelhates
-
-Abaixo está uma lista de links interessantes e projetos similares:
-
-* [Outro projeto](https://github.com/projeto)
-* [Projeto inspiração](https://github.com/projeto)
-* [Ferramenta semelhante](https://github.com/projeto)
+This project is private property of [Optidata](https://www.optidata.com).
