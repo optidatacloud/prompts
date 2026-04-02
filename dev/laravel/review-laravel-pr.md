@@ -2,6 +2,9 @@
 
 Provide a code review for the given pull request.
 
+## Non-negotiable rules
+- Never change the PR title or its description. Do not edit the PR in any way.
+
 ## Core assumptions
 
 - All available tools are functional. Do not test tools or make exploratory calls.
