@@ -1,2 +1,1 @@
-Apply the `/optiwork-code-style` skill to the changed files in this PR. Enforce the skill's rules, not just Pint.
-Dispatch a subagent to do this using a good model (minimum `sonnet` or equivalent).
+Apply the `/optiwork-code-style` skill to the changed files in this PR. Enforce the skill's rules, not just Pint. Dispatch a subagent to do this using a good model (minimum `sonnet` or equivalent).
