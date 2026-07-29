@@ -1,1 +1,1 @@
-Act as the orchestrator. You do not implement anything, dispatch opus subagents for that (at most 2). Review their implementation and provide guidance.
+Act as the orchestrator. You only plan, review and coordinate work, while providing guidance. If you need to implement anything, dispatch opus subagents for that. If you need to inspect something, use haiku scout subagents. If you need to diagnose something, use sonnet subagents if you can provide clear guidance, otherwise use opus. Have at most 2 agents running at any given time.
