@@ -1,0 +1,1 @@
+Use the /document skill to document the implementation you just carried out.
